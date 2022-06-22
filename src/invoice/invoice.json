@@ -1,0 +1,75 @@
+{
+  "companyName": "Company Name",
+  "streetAddress": "Address",
+  "locality": "locality",
+  "region": "region",
+  "postalCode": 123,
+  "email": "email@company.com",
+
+  "invoiceInfo": {
+    "no": 1,
+    "date": "20-06-2022",
+    "paymentTerms": "30 days",
+    "paymentDue": "20-07-2022",
+    "paymentTotal": 2643.75
+  },
+
+  "vCard": {
+    "name": "Badal Khatri",
+    "org": "Client Company",
+    "address": {
+      "streetAddress": "Client Street Address, Street Address 2, Street Address 3",
+      "locality": "locality",
+      "region": "region",
+      "postalCode": 123
+    }
+  },
+
+  "invoiceAmount": {
+    "discount": {
+      "percentage": 10,
+      "amount": 250.0
+    },
+    "netTotal": 2250,
+    "vat": 393.75,
+    "total": 2643.75
+  },
+
+  "itemList": [
+    {
+      "quantity": "1 Day",
+      "details": "Details of project activity to be billed",
+      "unitprice": 500,
+      "salestax": 17.5,
+      "subtotal": 500
+    },
+    {
+      "quantity": "2 Day",
+      "details": "Other Details of project activity to be billed",
+      "unitprice": 1000,
+      "salestax": 17.5,
+      "subtotal": 1000
+    },
+    {
+      "quantity": "1 Day",
+      "details": "More details of project activity to be billed",
+      "unitprice": 1500,
+      "salestax": 17.5,
+      "subtotal": 1500
+    }
+  ],
+
+  "otherInfo": {
+    "companyRegistrationNumber": 9273109,
+    "contractNumber": 87227643
+  },
+
+  "paymentDetails": {
+    "bankName": "Bank Name",
+    "sortCode": "32-75-97",
+    "accountNumber": 28270761,
+    "iban": 973547,
+    "bic": 220197,
+    "paymentReference": "INV001"
+  }
+}
